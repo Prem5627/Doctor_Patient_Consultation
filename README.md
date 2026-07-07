@@ -28,12 +28,7 @@ A healthcare consultation platform that enables patients to book appointments an
 ```
 src/
 ├── components/
-├── pages/
-├── services/
-├── hooks/
-├── assets/
 ├── styles/
-└── App.js
 ```
 
 ## My Contributions
