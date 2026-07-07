@@ -1,0 +1,50 @@
+.registration-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f7f9fc;
+}
+
+.registration-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  text-align: center;
+}
+
+.registration-card h2 {
+  margin-bottom: 10px;
+}
+
+.registration-card p {
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.registration-card form input,
+.registration-card form select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.save-btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background-color: #1976d2;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.save-btn:hover {
+  background-color: #125a9e;
+}

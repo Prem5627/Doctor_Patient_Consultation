@@ -1,0 +1,95 @@
+.patient-login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #f9fafe;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.patient-login-card {
+  background: #fff;
+  padding: 40px 35px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+}
+
+.subtitle {
+  margin-bottom: 25px;
+  font-size: 14px;
+  color: #666;
+}
+
+.login-form {
+  text-align: left;
+}
+
+.form-group {
+  margin-bottom: 18px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 13px;
+  font-weight: 500;
+  margin-bottom: 6px;
+  color: #444;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #d0d0d0;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+  transition: border 0.3s;
+}
+
+.form-group input:focus {
+  border-color: #2563eb; /* green for patient */
+  box-shadow: 0 0 5px rgba(22, 163, 74, 0.3);
+}
+
+.login-btn {
+  width: 100%;
+  padding: 12px;
+  background: #2563eb; /* green button for patient */
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.login-btn:hover {
+  background: #128334;
+}
+
+.register-text {
+  margin-top: 20px;
+  font-size: 13px;
+  color: #555;
+}
+
+.register-link {
+  color: #2563eb;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.register-link:hover {
+  text-decoration: underline;
+}
